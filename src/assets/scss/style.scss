@@ -1,0 +1,58 @@
+.misc-wrapper {
+  position: relative;
+  max-width: 1024px;
+  & .bs-stepper {
+    box-shadow: none;
+  }
+  @media (max-width: 768px) {
+    width: 100%;
+  }
+}
+.btn-upload {
+  cursor: pointer;
+  text-decoration: underline;
+  &:hover {
+    color: #ffde00;
+  }
+}
+
+.badge.badge-up.badge-sm {
+  top: 0px;
+}
+
+[dir='ltr'] .badge.badge-up.badge-sm {
+  right: 0px;
+}
+
+.list .table-responsive {
+  max-height: 220px;
+}
+
+.logo {
+  filter: invert(100%) sepia(0%) saturate(7445%) hue-rotate(301deg)
+    brightness(115%) contrast(94%);
+}
+
+.dark-layout .main-menu-content .navigation-main .nav-item .menu-content .active {
+  .menu-item, svg {
+    color: #1e1e1e;
+  }
+}
+
+.btn-primary {
+  color: #1e1e1e !important;
+}
+
+.input-outline-hover{
+  border: 1px solid #ffde00 !important;
+  outline-color: #ffde00 !important;
+}
+.input-outline-not-hover{
+  outline: none !important;
+}
+
+.icon-input:hover{
+ 
+  width: 100px;
+  height: 100%;
+}
